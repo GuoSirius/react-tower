@@ -1,0 +1,22 @@
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.home-tip {
+  color: blue;
+  font-size: 2em;
+}
+
+.home-score {
+  margin-top: 36px;
+  font-size: 1.5rem;
+}
+
+.home-reset {
+  cursor: pointer;
+}

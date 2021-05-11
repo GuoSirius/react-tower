@@ -1,0 +1,44 @@
+.tictactoe-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.tictactoe-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.tictactoe-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.tictactoe-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 100%;
+  font-size: 2em;
+  border: 2px solid #333;
+}
+
+.tictactoe-cell.tictactoe-cell-me {
+  background-color: rgb(255,220,220);
+}
+
+.tictactoe-cell.tictactoe-cell-computer {
+  background-color: rgb(220,220,255);
+}
